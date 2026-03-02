@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "MorkDungeon";
+    src: url(../font/Mork\ Dungeon.ttf);
+}
+
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+canvas {
+    border: 1px solid lightblue;
+    cursor: url("../img/plume3.png"), crosshair;
+}
