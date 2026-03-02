@@ -3,6 +3,11 @@
     src: url(../font/Mork\ Dungeon.ttf);
 }
 
+@font-face {
+    font-family: "HerculesPixel";
+    src: url(../font/HerculesPixelFontOutline-4nqgK.otf);
+}
+
 
 body {
     min-height: 100vh;
@@ -10,8 +15,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(29, 27, 22, 1);
+    
 }
 canvas {
-    border: 1px solid lightblue;
+    /* border: 1px solid lightblue; */
     cursor: url("../img/plume3.png"), crosshair;
+    transform: scale(1.4);
+    /* border: 3px solid blue; */
 }
